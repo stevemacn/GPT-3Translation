@@ -3,7 +3,7 @@ import flask
 
 def gpt3():
 
-    openai.api_key = "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"
+    openai.api_key = ""
 
     response = openai.Completion.create(
       engine="davinci",
